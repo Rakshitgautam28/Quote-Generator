@@ -103,9 +103,13 @@ button:active {
 /* Media Queries */
 @media screen and (max-width: 1024px) {
   .quote-container {
-    margin: auto 10px;
+    margin: auto 5px;
   }
   .quote-text {
     font-size: 2rem;
+  }
+
+  .quote-container {
+    padding: 20px 10px;
   }
 }
